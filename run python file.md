@@ -1,7 +1,7 @@
 # create package
 
 ```Shell
-catkin_create_pkg vision rospy
+catkin_create_pkg vision rospy sd_msgs
 ```
 
 ```Shell
@@ -16,7 +16,7 @@ Make the Python file executable by adding the following line at the beginning of
 
 ````Shell
 #!/usr/bin/env python
-
+```
 
 ```Shell
 chmod +x my_file.py
@@ -24,5 +24,12 @@ chmod +x my_file.py
 
 ```Shell
 catkin_make
+```
 
+```Shell
+source ~/catkin_ws/devel/setup.bash
+```
+
+```Shell
+roscore
 ```
