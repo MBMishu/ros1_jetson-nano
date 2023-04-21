@@ -1,7 +1,7 @@
 # create package
 
 ```Shell
-catkin_create_pkg vision rospy sd_msgs
+catkin_create_pkg vision rospy std_msgs
 ```
 
 ```Shell
