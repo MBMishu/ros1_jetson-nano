@@ -78,6 +78,14 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/
 ```
 
+## create package
+
+```Shell
+catkin_create_pkg duburi std_msgs rospy roscpp
+```
+
+## build
+
 ```Shell
 catkin_make
 ```
@@ -92,4 +100,14 @@ source ~/catkin_ws/devel/setup.bash
 
 ```Shell
 roscore
+```
+
+## Installing and using SMACH-ROS
+
+```Shell
+sudo apt-get install ros-melodic-smach ros-melodic-smach-ros ros-melodic-executive-smach ros-melodic-smach-viewer
+```
+
+```Shell
+rosrun smach_viewer smach_viewer.py
 ```
